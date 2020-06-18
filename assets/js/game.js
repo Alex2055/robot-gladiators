@@ -62,6 +62,7 @@ var fight = function(enemyName) {
       window.alert(playerName + ' still has ' + playerHealth + ' health left.');
     }
   }
+
 }
 
 var startGame = function(){
@@ -91,10 +92,8 @@ var startGame = function(){
     window.alert("You have lost your robot in battle! Game Over!");
     break;
   }
+    }
     endGame();
-  
-
- }
 }
 var endGame = function() {
  // if player is still alive, player wins!
@@ -116,6 +115,9 @@ else {
   window.alert("Thank you for playing Robot Gladiators! Come back soon!");
 }
 }
-startGame();
+
+//document.addEventListener("DOMContentLoaded", function(){
+  startGame();
+//})
 
  
