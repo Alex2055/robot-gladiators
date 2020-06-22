@@ -36,6 +36,7 @@ var fightOrSkip = function () {
 
 
 
+
 var fight = function (enemy) {
 
   
